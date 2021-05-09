@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Amazon Test Suite" verbose="1" thread-count="1" annotations="JDK" parallel="tests">
+	<test name="HompageTestUnit">
+		<classes>
+			<class name="com.ecom.webapp.AmazonHomePageTest" ></class>
+			<class name="com.ecom.webapp.AmazonNavigationTest" ></class>
+		</classes>
+	</test>
+	<test name="GroupTestUnit">
+		<classes>
+			<class name="com.ecom.webapp.TestNgGroupTest" ></class>
+		</classes>
+	</test>
+</suite>

@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecom.webapp.AmazonHomePageTest">
+      <class name="com.ecom.webapp.SoftAssertWithFaceBookLogin">
         <methods>
-          <include name="afterMethod"/>
-          <include name="f"/>
-          <include name="beforeMethod"/>
+          <include name="launchFireFoxTest"/>
+          <include name="testFacebookLogin"/>
         </methods>
-      </class> <!-- com.ecom.webapp.AmazonHomePageTest -->
+      </class> <!-- com.ecom.webapp.SoftAssertWithFaceBookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

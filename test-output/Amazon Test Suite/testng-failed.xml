@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Amazon Test Suite]" parallel="tests">
+  <test thread-count="1" name="HompageTestUnit(failed)" parallel="tests">
+    <classes>
+      <class name="com.ecom.webapp.AmazonNavigationTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testMobileLinkNavigation"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.ecom.webapp.AmazonNavigationTest -->
+    </classes>
+  </test> <!-- HompageTestUnit(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->

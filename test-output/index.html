@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ecom.webapp.AmazonHomePageTest" hash-for-method="testAmazonHomePageTitleTest">testAmazonHomePageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ecom.webapp.SoftAssertWithFaceBookLogin" hash-for-method="launchFireFoxTest">launchFireFoxTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ecom.webapp.AmazonHomePageTest" hash-for-method="testAmazonSourceURL">testAmazonSourceURL</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ecom.webapp.SoftAssertWithFaceBookLogin" hash-for-method="testFacebookHomePageTitle">testFacebookHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ecom.webapp.SoftAssertWithFaceBookLogin" hash-for-method="testFacebookLogin">testFacebookLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ecom.webapp.AmazonHomePageTest</span>
+              <span class="class-name">com.ecom.webapp.SoftAssertWithFaceBookLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAmazonHomePageTitleTest">
-                  </a> <!-- testAmazonHomePageTitleTest -->
-                  <span class="method-name">testAmazonHomePageTitleTest</span>
+                  <a name="launchFireFoxTest">
+                  </a> <!-- launchFireFoxTest -->
+                  <span class="method-name">launchFireFoxTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testAmazonSourceURL">
-                  </a> <!-- testAmazonSourceURL -->
-                  <span class="method-name">testAmazonSourceURL</span>
+                  <a name="testFacebookHomePageTitle">
+                  </a> <!-- testFacebookHomePageTitle -->
+                  <span class="method-name">testFacebookHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFacebookLogin">
+                  </a> <!-- testFacebookLogin -->
+                  <span class="method-name">testFacebookLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--1815704312/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--1958102657/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.ecom.webapp.AmazonHomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.ecom.webapp.SoftAssertWithFaceBookLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -182,6 +194,22 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">FireFoxOnly</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchFireFoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFacebookHomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFacebookLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -198,20 +226,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAmazonHomePageTitleTest')
-data.setCell(0, 2, 'com.ecom.webapp.AmazonHomePageTest')
-data.setCell(0, 3, 54);
+data.setCell(0, 1, 'testFacebookLogin')
+data.setCell(0, 2, 'com.ecom.webapp.SoftAssertWithFaceBookLogin')
+data.setCell(0, 3, 6296);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAmazonSourceURL')
-data.setCell(1, 2, 'com.ecom.webapp.AmazonHomePageTest')
-data.setCell(1, 3, 46);
+data.setCell(1, 1, 'launchFireFoxTest')
+data.setCell(1, 2, 'com.ecom.webapp.SoftAssertWithFaceBookLogin')
+data.setCell(1, 3, 3929);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFacebookHomePageTitle')
+data.setCell(2, 2, 'com.ecom.webapp.SoftAssertWithFaceBookLogin')
+data.setCell(2, 3, 36);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 100 ms</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,31 +269,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ecom.webapp.AmazonHomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
+              <div class="chronological-class-name">com.ecom.webapp.SoftAssertWithFaceBookLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchFireFoxTest</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testAmazonHomePageTitleTest</span>
-                <span class="method-start">4893 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">4964 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">6520 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testAmazonSourceURL</span>
-                <span class="method-start">10206 ms</span>
+                <span class="method-name">testFacebookHomePageTitle</span>
+                <span class="method-start">3947 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">10254 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testFacebookLogin</span>
+                <span class="method-start">3987 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

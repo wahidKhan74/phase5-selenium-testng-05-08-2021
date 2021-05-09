@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11545" started-at="2021-05-08T17:28:37 UTC" finished-at="2021-05-08T17:28:49 UTC">
+  <suite name="Default suite" duration-ms="10323" started-at="2021-05-09T15:39:36 UTC" finished-at="2021-05-09T15:39:46 UTC">
     <groups>
+      <group name="FireFoxOnly">
+        <method signature="SoftAssertWithFaceBookLogin.launchFireFoxTest()[pri:0, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="launchFireFoxTest" class="com.ecom.webapp.SoftAssertWithFaceBookLogin"/>
+        <method signature="SoftAssertWithFaceBookLogin.testFacebookHomePageTitle()[pri:1, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="testFacebookHomePageTitle" class="com.ecom.webapp.SoftAssertWithFaceBookLogin"/>
+        <method signature="SoftAssertWithFaceBookLogin.testFacebookLogin()[pri:1, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="testFacebookLogin" class="com.ecom.webapp.SoftAssertWithFaceBookLogin"/>
+      </group> <!-- FireFoxOnly -->
     </groups>
-    <test name="Default test" duration-ms="11545" started-at="2021-05-08T17:28:37 UTC" finished-at="2021-05-08T17:28:49 UTC">
-      <class name="com.ecom.webapp.AmazonHomePageTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="beforeMethod" is-config="true" duration-ms="4892" started-at="2021-05-08T17:28:37 UTC" finished-at="2021-05-08T17:28:42 UTC">
+    <test name="Default test" duration-ms="10323" started-at="2021-05-09T15:39:36 UTC" finished-at="2021-05-09T15:39:46 UTC">
+      <class name="com.ecom.webapp.SoftAssertWithFaceBookLogin">
+        <test-method status="PASS" signature="launchFireFoxTest()[pri:0, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="launchFireFoxTest" duration-ms="3929" started-at="2021-05-09T15:39:36 UTC" finished-at="2021-05-09T15:39:40 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAmazonHomePageTitleTest()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="testAmazonHomePageTitleTest" duration-ms="54" started-at="2021-05-08T17:28:42 UTC" finished-at="2021-05-08T17:28:42 UTC">
+        </test-method> <!-- launchFireFoxTest -->
+        <test-method status="PASS" signature="testFacebookHomePageTitle()[pri:1, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="testFacebookHomePageTitle" duration-ms="36" started-at="2021-05-09T15:39:40 UTC" depends-on-methods="com.ecom.webapp.SoftAssertWithFaceBookLogin.launchFireFoxTest" finished-at="2021-05-09T15:39:40 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazonHomePageTitleTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="afterMethod" is-config="true" duration-ms="1556" started-at="2021-05-08T17:28:42 UTC" finished-at="2021-05-08T17:28:44 UTC">
+        </test-method> <!-- testFacebookHomePageTitle -->
+        <test-method status="PASS" signature="testFacebookLogin()[pri:1, instance:com.ecom.webapp.SoftAssertWithFaceBookLogin@711f39f9]" name="testFacebookLogin" duration-ms="6296" started-at="2021-05-09T15:39:40 UTC" depends-on-methods="com.ecom.webapp.SoftAssertWithFaceBookLogin.launchFireFoxTest" finished-at="2021-05-09T15:39:46 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="beforeMethod" is-config="true" duration-ms="3686" started-at="2021-05-08T17:28:44 UTC" finished-at="2021-05-08T17:28:47 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAmazonSourceURL()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="testAmazonSourceURL" duration-ms="46" started-at="2021-05-08T17:28:47 UTC" finished-at="2021-05-08T17:28:47 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazonSourceURL -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ecom.webapp.AmazonHomePageTest@3fd7a715]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2021-05-08T17:28:47 UTC" finished-at="2021-05-08T17:28:49 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.ecom.webapp.AmazonHomePageTest -->
+        </test-method> <!-- testFacebookLogin -->
+      </class> <!-- com.ecom.webapp.SoftAssertWithFaceBookLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
